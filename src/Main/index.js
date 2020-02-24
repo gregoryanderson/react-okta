@@ -5,14 +5,6 @@ import { Security, ImplicitCallback, SecureRoute } from '@okta/okta-react';
 import Login from '../Login'
 import Home from '../Home'
 
-const config = {
-  issuer: 'https://dev-969790.okta.com/oauth2/default',
-  redirectUri: window.location.origin + '/implicit/callback',
-  clientId: '{0oa2hxqx0wQ13B7rX4x6}',
-  pkce: true
-}
-
-
 class Main extends Component {
 
  render() {
